@@ -3,6 +3,7 @@ public class WeatherStation {
 		WeatherData weatherData = new WeatherData();
 
 		CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);
+		ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
 
 		weatherData.setMeasurement(80, 65, 30.4f);
 		weatherData.setMeasurement(82, 70, 29.2f);
